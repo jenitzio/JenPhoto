@@ -1,17 +1,17 @@
 {
-  "name": "raw-studio",
+  "name": "JenPhoto",
   "version": "1.0.0",
-  "description": "RAW Studio photo editor",
+  "description": "A photoshop-like image editor",
   "main": "main.js",
   "devDependencies": {
     "electron": "22.3.27",
     "electron-builder": "24.13.3"
   },
   "build": {
-    "appId": "com.example.rawstudio",
-    "productName": "RAW Studio",
+    "appId": "com.example.JenPhoto",
+    "productName": "JenPhoto Studio",
     "files": ["index.html", "main.js"],
-    "artifactName": "RAW-Studio-${version}.${ext}",
+    "artifactName": "JenPhoto-${version}.${ext}",
     "linux": {
       "target": ["AppImage"],
       "category": "Graphics"
